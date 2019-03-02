@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import FriendCard from './components/FriendCard/index';
 import friends from "./friends.json";
 import Wrapper from './components/Wrapper/index';
-import Form from './components/Form/index';
+import Form from './components/Form/Login';
 import SearchResultContainer from './components/SearchResultContainer/SearchResultContainer';
 
 
@@ -29,7 +29,6 @@ class App extends Component {
       <Navbar />
         <header className="App-header">
         <h1>Testing</h1>
-        <SearchResultContainer />
         </header>
       <div class="jumbotron">
         <h1 className="display-3">Jumbo heading</h1>
