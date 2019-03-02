@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import FriendCard from './components/FriendCard/index';
 import friends from "./friends.json";
 import Wrapper from './components/Wrapper/index';
+import Form from './components/Form/index';
+import SearchResultContainer from './components/SearchResultContainer/SearchResultContainer';
+
 
 class App extends Component {
     // Setting this.state.friends to the friends json array
@@ -20,14 +23,13 @@ class App extends Component {
       this.setState({ friends });
     };
 
-    
-
   render() {
     return (
       <div className="App">
       <Navbar />
         <header className="App-header">
         <h1>Testing</h1>
+        <SearchResultContainer />
         </header>
       <div class="jumbotron">
         <h1 className="display-3">Jumbo heading</h1>
@@ -35,7 +37,7 @@ class App extends Component {
         <hr class="my-2"/>
         <p>More info</p>
         <p className="lead">
-          <a className="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+          <Form/>
         </p>
       </div>
 
