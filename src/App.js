@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import FriendCard from './components/FriendCard/index';
 import friends from "./friends.json";
 import Wrapper from './components/Wrapper/index';
 import Form from './components/Form/Login';
-import SearchResultContainer from './components/SearchResultContainer/SearchResultContainer';
+// import SearchResultContainer from './components/SearchResultContainer/SearchResultContainer';
 
 
 class App extends Component {
