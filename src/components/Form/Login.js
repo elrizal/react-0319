@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
 class Form extends Component {
   // Setting the component's initial state
@@ -72,6 +75,9 @@ class Form extends Component {
             type="password"
             placeholder="Password"
           />
+             <Button variant="contained" color="primary">
+        Primary
+      </Button>
           <button className="btn btn-primary btn-lg" onClick={this.handleFormSubmit}>Submit</button>
         </form>
       </div>
