@@ -34,7 +34,7 @@
   }
   
   .card > .remove {
-    color: #ff1744;
+    color: gray;
     font-size: 48px;
     position: absolute;
     top: -20px;
@@ -43,6 +43,6 @@
   }
   
   .card > .remove:hover {
-    color: #d50000;
+    color: gray;
   }
   

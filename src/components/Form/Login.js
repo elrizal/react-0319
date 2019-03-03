@@ -2,6 +2,18 @@ import React, { Component } from "react";
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import Input from '@material-ui/core/Input';
+
+const styles = theme => ({
+  container: {
+    display: 'flex',
+    flexWrap: 'wrap',
+  },
+  input: {
+    margin: theme.spacing.unit,
+  },
+});
+
 
 class Form extends Component {
   // Setting the component's initial state
@@ -75,10 +87,9 @@ class Form extends Component {
             type="password"
             placeholder="Password"
           />
-             <Button variant="contained" color="primary">
-        Primary
-      </Button>
-          <button className="btn btn-primary btn-lg" onClick={this.handleFormSubmit}>Submit</button>
+             <Button variant="contained" color="primary" onClick={this.handleFormSubmit}>
+              Submit
+            </Button>
         </form>
       </div>
     );
