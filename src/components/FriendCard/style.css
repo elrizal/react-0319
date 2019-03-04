@@ -3,7 +3,7 @@
     border-radius: 2px;
     height: 325px;
     margin: 1rem;
-    position: relative;
+    /* position: relative; */
     width: 325px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
@@ -34,13 +34,19 @@
   }
   
   .card > .remove {
-    color: gray;
-    font-size: 48px;
+    color: rgb(207, 38, 38);
+    font-size: 30px;
     position: absolute;
-    top: -20px;
-    right: 5px;
+    background-color: white;
+    top: -10px;
+    right: -6px;
+    margin: 0 auto;
+    text-align: center;
     cursor: pointer;
-  }
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
   
   .card > .remove:hover {
     color: gray;
